@@ -1,7 +1,7 @@
 body {
   margin: 0;
   line-height: normal;
-  transform: scale(1.0); /* Set the desired zoom level (e.g., 1.25 for 125%) */
+  transform: scale(0.9); /* Set the desired zoom level (e.g., 1.25 for 125%) */
   transform-origin: top left;
 }
 
