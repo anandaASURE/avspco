@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Century Gothic:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-1">
+      <div class="frame-parent">
+        <header class="frame-wrapper">
+          <div class="frame-group">
+            <div class="rectangle-parent">
+              <div class="frame-child"></div>
+              <div class="left-elements">
+                <div class="left-elements-inner">
+                  <div class="frame-item"></div>
+                </div>
+                <div class="ellipse-parent">
+                  <div class="frame-inner"></div>
+                  <a class="a">9</a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-options">
+              <div class="la-plata-9-parent">
+                <h1 class="la-plata-9-container">
+                  <span>La Plata</span>
+                  <span class="span"> </span>
+                  <span class="span1">9</span>
+                </h1>
+                <div class="menu-options1">
+                  <div class="from-avs">from AVS</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="whatsapp-image-2024-07-20-at-1-wrapper">
+          <img
+            class="whatsapp-image-2024-07-20-at-1"
+            loading="lazy"
+            alt=""
+            src="./public/rr.png"
+          />
+        </div>
+        <div class="frame-container" href="public/f.pdf">
+          <div class="lp9-buttyton-parent" >
+            <div class="lp9-buttyton"  target="_blank" id="rrt" ></div>
+            <div class="release-notes-of">Release Notes of phase 3</div>
+          </div>
+          <div class="lp9-buttyton-group">
+            <div class="lp9-buttyton1"></div>
+            <div class="join-avs-through">Join AVS through La Plata 9</div>
+          </div>
+        </div>
+      </div>
+      <section class="frame-section">
+        <div class="research-content-wrapper">
+          <div class="research-content">
+            <div class="research-wrapper">
+              <a class="research">Research</a>
+            </div>
+            <div class="frame-div">
+              <div class="frame-parent1">
+                <button class="rectangle-group" onclick="openPDF()" target="_blank">
+                  <div class="rectangle-div"></div>
+                  <div class="history">History</div>
+                </button>
+                <div class="first-graphic-parent">
+                  <div class="first-graphic"></div>
+                  <div class="upcomings">Upcomings</div>
+                </div>
+              </div>
+              <div class="phase-3">
+                2024 phase - 3 Notes are now available oficially. Check the
+                redirection link below to download the Released Notes pdf.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="actions-content-parent">
+          <div class="actions-content">
+            <div class="history-wrapper">
+              <a class="history1">History </a>
+            </div>
+            <div class="frame-parent2">
+              <div class="upgrade-wrapper">
+                <a class="upgrade">Upgrade</a>
+              </div>
+              <button class="rectangle-container">
+                <div class="frame-child1"></div>
+                <a class="login">LogIn</a>
+              </button>
+            </div>
+          </div>
+          <div class="image-container">
+            <img
+              class="icon"
+              loading="lazy"
+              alt=""
+              src="./public/b.png"
+            />
+          </div>
+          <div class="matrix-content-wrapper">
+            <div class="matrix-content">
+              <div class="lp9-buttyton-container" id="get">
+                <div class="lp9-buttyton2"></div>
+                <b class="get-matrix-card-container">
+                  <span>GET</span>
+                  <span class="matrix-card"> Matrix Card</span>
+                </b>
+              </div>
+              <img
+                class="untitled-1-1-icon"
+                loading="lazy"
+                alt=""
+                src="./public/untitled1-1@2x.png"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script>
+    function openPDF() {
+        window.open('public/f.pdf', '_blank');
+    }
+
+    function openLink(url) {
+            window.open(url, '_blank'); // Opens the URL in a new tab
+        }
+
+        // Assign different URLs to different buttons
+        document.getElementById('get').onclick = function() {
+            openLink('https://forms.gle/g6GH1x37NsJJSWhb8');
+        };
+        document.getElementById('rrt').onclick = function() {
+            openPDF('public/f.pdf', '_blank');
+        };
+</script>
+</html>
