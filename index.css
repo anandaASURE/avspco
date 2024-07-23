@@ -578,7 +578,7 @@
 }
 .matrix-content {
   align-self: stretch;
-  width: 467.1px;
+  width: 380px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -601,8 +601,8 @@
 .frame-section,
 .matrix-content-wrapper {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 .actions-content-parent {
   flex: 1;
