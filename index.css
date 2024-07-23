@@ -554,8 +554,8 @@
 .lp9-buttyton-container {
   width: 405.2px;
   border-radius: var(--br-36xl);
-  background-color: var(--color-tomato);
-  border: 2px solid var(--color-tomato);
+  background-color: #4500ff;
+  border: 2px solid #4500ff;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
