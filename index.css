@@ -272,6 +272,7 @@
   align-items: flex-end;
   gap: 45px;
   min-width: 453.4px;
+  align-self:flex-start;
 }
 .research {
   text-decoration: none;
