@@ -12,7 +12,7 @@
   height: 20.9px;
   width: 20.9px;
   border-radius: 50%;
-  background-color: #ff004c;
+  background-color: #ffffff;
 }
 .left-elements-inner {
   width: 36.7px;
@@ -438,6 +438,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-5xs) 0 0;
+  width:0px;
 }
 .upgrade {
   text-decoration: none;
@@ -505,7 +506,7 @@
 }
 .actions-content {
   align-self: stretch;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0 var(--padding-4xl) 0 0;
   gap: 20px;
 }
@@ -540,7 +541,7 @@
   display: none;
 }
 .matrix-card {
-  color: var(--color-black);
+  color:white;
   white-space: pre-wrap;
 }
 .get-matrix-card-container {
