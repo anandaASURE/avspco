@@ -406,9 +406,10 @@
 .research-content-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  max-width: 97%;
+  padding-left:6px;
 }
 .research-content {
   align-self: stretch;
@@ -701,7 +702,7 @@
     gap: var(--gap-29xl);
   }
   .research-content {
-    gap: 106px;
+    gap: 144px;
   }
   .research-content-wrapper {
     min-width: 100%;
