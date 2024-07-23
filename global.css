@@ -4,8 +4,9 @@ body {
   transform: scale(1.0); /* Set the desired zoom level (e.g., 1.25 for 125%) */
   transform-origin: top left;
 
-  padding-left:3px;
-  padding-right:3px;
+  padding-left:10px;
+  padding-right:10px;
+  background-color:#000000;
 }
 
 :root {
