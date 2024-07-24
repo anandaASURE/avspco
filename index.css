@@ -519,6 +519,17 @@
   max-width: 106%;
   flex-shrink: 0;
 }
+.icoxi {
+    width: 200px;
+    position: relative;
+    justify-content: center;
+    max-height: 200px;
+    max-width: 100%;
+    flex-shrink: 0;
+    align-self: center;
+    left: 94px;
+
+}
 .image-container,
 .lp9-buttyton2 {
   box-sizing: border-box;
