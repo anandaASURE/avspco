@@ -414,7 +414,7 @@
 }
 .research-content {
   align-self: stretch;
-  gap: 233px;
+  gap: 23px;
 }
 .research-content-wrapper {
   width: 403px;
@@ -521,9 +521,9 @@
 }
 .icoxi {
     width: 200px;
-    position: relative;
+    position: static;
     justify-content: center;
-    max-height: 200px;
+    max-height: 201px;
     max-width: 100%;
     flex-shrink: 0;
     align-self: center;
@@ -620,7 +620,7 @@
 .actions-content-parent {
   flex: 1;
   flex-direction: column;
-  gap: 79px;
+  gap: 47px;
   min-width: 306px;
   max-width: 100%;
 }
