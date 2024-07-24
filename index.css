@@ -414,7 +414,7 @@
 }
 .research-content {
   align-self: stretch;
-  gap: 23px;
+  gap: 18px;
 }
 .research-content-wrapper {
   width: 403px;
@@ -620,7 +620,7 @@
 .actions-content-parent {
   flex: 1;
   flex-direction: column;
-  gap: 47px;
+  gap: 53px;
   min-width: 306px;
   max-width: 100%;
 }
