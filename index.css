@@ -716,7 +716,7 @@
     gap: var(--gap-29xl);
   }
   .research-content {
-    gap: 144px;
+    gap: 80px;
   }
   .research-content-wrapper {
     min-width: 100%;
