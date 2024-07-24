@@ -614,7 +614,7 @@
 .frame-section,
 .matrix-content-wrapper {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 .actions-content-parent {
